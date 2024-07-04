@@ -1,5 +1,6 @@
 
 import { test, expect } from '@playwright/test';
+//Configuration Test
 
 test('test', async ({ page }) => {
   await page.goto('https://baamtu.com/');
